@@ -20,3 +20,24 @@ for(variableControl = 0; variableControl <= 15; variableControl ++) {
 for(variableControl = 10; variableControl >= 0; variableControl --) {
     console.log('valor de control 2: ',variableControl)
 }
+// BUCLE FOR HASTA 8, EN EL QUE, EN LOS PASOS PARES (2,4,6,8) MULTIPLIQUE LA VARIABLE POR 2
+let variableAMultiplicar = 5
+for(variableControl = 0; variableControl <= 8; variableControl ++){
+    if(variableControl === 2){
+        variableAMultiplicar = variableAMultiplicar * 2
+        console.log('muestra el valor: ',variableAMultiplicar)
+    }
+    if(variableControl === 4){
+        variableAMultiplicar = variableAMultiplicar * 2
+        console.log('muestra el valor: ',variableAMultiplicar)
+    }
+    if(variableControl === 6){
+        variableAMultiplicar = variableAMultiplicar * 2
+        console.log('muestra el valor: ',variableAMultiplicar)
+    }
+    if(variableControl === 8){
+        variableAMultiplicar = variableAMultiplicar * 2
+        console.log('muestra el valor: ',variableAMultiplicar)
+    }
+    
+}
